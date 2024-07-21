@@ -1,0 +1,154 @@
+*
+*::before
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.columna-2 {
+    width: 862px;
+    padding-right: 50px;
+}
+
+.grid-progress {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-top: 0;
+
+    .frontend {
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+
+
+        .progress {
+            display: flex;
+            width: 100%;
+            
+
+            p {
+                width: 280px;
+                margin: 0px ;
+                padding-bottom: 8px;
+            }
+
+            progress {
+                width: 100%;
+            }
+        }
+    }
+
+    .design {
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        height: 130px;
+
+        .progress {
+            display: flex;
+            
+            p {
+                width: 280px;
+                margin: 0px ;
+                padding-bottom: 8px;
+            }
+
+            progress {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+.projects-tittle {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    h2 {
+        padding: 15px;
+        color: #4f4f4f;
+        font-weight: 500;
+    }
+}
+
+.project {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 30px;
+
+    img {
+        width: 322px;
+        height: auto;
+    }
+
+    button {
+        background-color: white;
+        padding: 10px 45px;
+        border: 1px solid #2f80ed;
+        border-radius: 10px;
+        margin-right: 5px;
+        color: #2f80ed;
+    }
+
+    .demo {
+        color: white;
+        background-color: #2f80ed;
+    }
+}
+
+.blogs-tittle {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    h2 {
+        padding: 15px;
+        color: #4f4f4f;
+        font-weight: 500;
+    }
+}
+
+.container-blogs {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    // padding: 15px;
+    display: flex;
+    gap: 50px;
+
+    img {
+        width: 444px;
+        height: auto;
+        padding: 35px 0 15px;
+    }
+
+    .text-blog {
+        padding: 15px 15px 0px;
+        height: 100%;
+
+        p {
+            padding: 5px 0;
+            
+        }
+
+        .p-blog {
+            padding-bottom: 20px;
+            color: #e0e0e0;
+        }
+
+        .dev {
+            margin: 0px;
+            color: #2f80ed;
+            font-weight: 500;
+        }
+    }
+}

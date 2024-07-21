@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* *::before *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.info-personal {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.info-personal .profile {
+  width: 367px;
+  height: auto;
+}
+.info-personal h2 {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.info-personal .correo {
+  display: flex;
+  gap: 20px;
+}
+.info-personal .correo img {
+  width: 25px;
+  height: 30px;
+  padding-top: 8px;
+}
+
+.experiences {
+  background-color: white;
+  padding: 1px 20px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.experiences h2 {
+  padding-bottom: 15px;
+}
+.experiences article {
+  display: flex;
+  gap: 30px;
+}
+.experiences .tittle {
+  padding-bottom: 15px;
+}
+.experiences img {
+  padding-top: 40px;
+}
+
+.hobbies {
+  background-color: white;
+  padding: 1px 20px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.hobbies article img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 15px 0 15px;
+}
+.hobbies article p {
+  line-height: 0.8;
+}
+
+* *::before *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.columna-2 {
+  width: 862px;
+  padding-right: 50px;
+}
+
+.grid-progress {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding-top: 0;
+}
+.grid-progress .frontend {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.grid-progress .frontend .progress {
+  display: flex;
+  width: 100%;
+}
+.grid-progress .frontend .progress p {
+  width: 280px;
+  margin: 0px;
+  padding-bottom: 8px;
+}
+.grid-progress .frontend .progress progress {
+  width: 100%;
+}
+.grid-progress .design {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  height: 130px;
+}
+.grid-progress .design .progress {
+  display: flex;
+}
+.grid-progress .design .progress p {
+  width: 280px;
+  margin: 0px;
+  padding-bottom: 8px;
+}
+.grid-progress .design .progress progress {
+  width: 100%;
+}
+
+.projects-tittle {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.projects-tittle h2 {
+  padding: 15px;
+  color: #4f4f4f;
+  font-weight: 500;
+}
+
+.project {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 30px;
+}
+.project img {
+  width: 322px;
+  height: auto;
+}
+.project button {
+  background-color: white;
+  padding: 10px 45px;
+  border: 1px solid #2f80ed;
+  border-radius: 10px;
+  margin-right: 5px;
+  color: #2f80ed;
+}
+.project .demo {
+  color: white;
+  background-color: #2f80ed;
+}
+
+.blogs-tittle {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.blogs-tittle h2 {
+  padding: 15px;
+  color: #4f4f4f;
+  font-weight: 500;
+}
+
+.container-blogs {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 50px;
+}
+.container-blogs img {
+  width: 444px;
+  height: auto;
+  padding: 35px 0 15px;
+}
+.container-blogs .text-blog {
+  padding: 15px 15px 0px;
+  height: 100%;
+}
+.container-blogs .text-blog p {
+  padding: 5px 0;
+}
+.container-blogs .text-blog .p-blog {
+  padding-bottom: 20px;
+  color: #e0e0e0;
+}
+.container-blogs .text-blog .dev {
+  margin: 0px;
+  color: #2f80ed;
+  font-weight: 500;
+}
+
+* *::before *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #c4c4c4;
+  color: #4f4f4f;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  padding: 50px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}/*# sourceMappingURL=styless.css.map */
